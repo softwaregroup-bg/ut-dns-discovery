@@ -1,18 +1,18 @@
 {
-  "name": "dns-discovery",
+  "name": "ut-dns-discovery",
   "version": "6.2.3",
   "description": "Discovery peers in a distributed system using regular dns and multicast dns.",
   "main": "index.js",
   "dependencies": {
     "circular-append-file": "^1.0.1",
     "debug": "^2.6.9",
-    "dns-socket": "^3.0.0",
+    "dns-socket": "^4.2.2",
     "lru": "^2.0.0",
-    "minimist": "^1.2.0",
-    "multicast-dns": "^7.1.1",
+    "minimist": "^1.2.6",
+    "multicast-dns": "^7.2.4",
     "network-address": "^1.1.2",
     "pump": "^3.0.0",
-    "speedometer": "^1.0.0",
+    "speedometer": "^1.1.0",
     "unordered-set": "^1.1.0"
   },
   "devDependencies": {
@@ -23,16 +23,17 @@
     "dns-discovery": "./bin.js"
   },
   "scripts": {
-    "test": "standard && tape test.js"
+    "test": "standard && tape test.js",
+    "jenkins": "npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/dns-discovery.git"
+    "url": "https://github.com/softwaregroup-bg/dns-discovery.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/dns-discovery/issues"
+    "url": "https://github.com/softwaregroup-bg/dns-discovery/issues"
   },
-  "homepage": "https://github.com/mafintosh/dns-discovery"
+  "homepage": "https://github.com/softwaregroup-bg/dns-discovery"
 }
