@@ -7,7 +7,7 @@
     "circular-append-file": "^1.0.1",
     "debug": "^2.6.9",
     "dns-socket": "^4.2.2",
-    "lru": "^2.0.0",
+    "lru": "^2.0.1",
     "minimist": "^1.2.6",
     "multicast-dns": "^7.2.4",
     "network-address": "^1.1.2",
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/softwaregroup-bg/dns-discovery.git"
+    "url": "https://github.com/softwaregroup-bg/ut-dns-discovery.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/softwaregroup-bg/dns-discovery/issues"
+    "url": "https://github.com/softwaregroup-bg/ut-dns-discovery/issues"
   },
-  "homepage": "https://github.com/softwaregroup-bg/dns-discovery"
+  "homepage": "https://github.com/softwaregroup-bg/ut-dns-discovery"
 }
